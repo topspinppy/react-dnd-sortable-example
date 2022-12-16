@@ -42,6 +42,34 @@ const Tasks: React.FC = () => {
       id: 9,
       attributeName: "bit depth",
     },
+    {
+      id: 10,
+      attributeName: "แบรนด์",
+    },
+    {
+      id: 11,
+      attributeName: "ระบบระบายความร้อน",
+    },
+    {
+      id: 12,
+      attributeName: "ระบบปฎิบัติการ",
+    },
+    {
+      id: 13,
+      attributeName: "หน่วยความจำ"
+    },
+    {
+      id: 14,
+      attributeName: "ประเภทหน่วยความจำ"
+    },
+    {
+      id: 15,
+      attributeName: "SSD"
+    },
+    {
+      id: 16,
+      attributeName: "การเชื่อมต่อ"
+    }
   ]);
 
   const getOriginalIndex = (id: number | string) => {

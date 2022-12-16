@@ -41,7 +41,6 @@ const TaskCard: React.FC<ITaskCard> = (props) => {
         const { index, originalIndex } = draggedItem;
         const didDrop = monitor.didDrop();
         if (!didDrop) {
-          console.log("drop outside !! ", id , index, originalIndex)
           moveTask(index, originalIndex)
         }
       },
