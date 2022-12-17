@@ -113,7 +113,12 @@ const Tasks: React.FC = () => {
           ))}
         </Stack>
       </Box>
-      <Box></Box>
+      <Box>
+        <Text fontSize="2xl" textAlign="center">
+          Array Object ที่จะถูกส่งไปที่ Backend
+        </Text>
+        <pre>{JSON.stringify(taskList, null, 2)}</pre>
+      </Box>
     </Grid>
   );
 };
